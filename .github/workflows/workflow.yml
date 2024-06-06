@@ -23,10 +23,10 @@ jobs:
           node-version: '20.10.0'
 
       - name: Read secrets
-        run: echo "The secret is ${{secrets.NEXT_PUBLIC_SECRET}}"
+        run: echo "The secret is ${{secrets.SECRET_VALUE}}"
 
       - name: Read vars
-        run: echo "a var is ${{vars.NEXT_PUBLIC_BACKEND_URL}}"
+        run: echo "The var is ${{vars.PUBLIC_VALUE}}"
 
       - name: any
         run: echo "any"
