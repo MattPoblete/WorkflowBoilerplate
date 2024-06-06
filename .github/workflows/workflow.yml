@@ -28,6 +28,9 @@ jobs:
       - name: Read vars
         run: echo "a var is ${{vars.NEXT_PUBLIC_BACKEND_URL}}"
 
+      - name: any
+        run: echo "any"
+
 ##  run-tests:
 ##    env:
 ##      NEXT_PUBLIC_BACKEND_URL: ${{vars.NEXT_PUBLIC_BACKEND_URL}}
